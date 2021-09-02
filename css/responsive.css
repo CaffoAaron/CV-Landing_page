@@ -1,0 +1,244 @@
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header-text {
+	color:#fff;
+	font-size:60px;
+	margin-top:250px;
+	text-align:center;
+}
+.header-text p span#typer {
+	font-size:30px!important;
+}
+.about-section {
+    padding-top: 70px;
+}
+.about-img img {
+	width:100%;
+	padding-top:30px;
+	padding-bottom:40px;
+}
+.itemHovernew {
+    padding-top:17%;
+}
+.navbar .navbar-right li a {
+	color:#fff;
+	display:block;
+	font-family:Signika,sans-serif;
+	font-size:13px;
+	font-weight:600;
+	padding-bottom:10px;
+	padding-top:12px;
+	position:relative;
+	text-transform:uppercase;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.navbar-toggle {
+    background-color:#000;
+}
+.navbar-toggle .icon-bar {
+    background:#fff;
+}
+.navbar-brand > img {
+	margin-top:8px;
+	width:100%;
+}
+.main-section{
+	height:auto;
+	padding-bottom:60px;
+}
+.home-header {
+	height:auto;
+	padding-bottom:80px;
+}
+.main-wrapper img {
+    transition: all 0.2s ease-in-out 0s;
+    width: 90%;
+	margin:0px auto;
+	display:block;
+}
+.main-wrapper h3 {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 0;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.header-text p span#typer {
+	font-family:Roboto, sans-serif;
+	font-size:30px!important;
+	font-weight:400;
+	color:#fff;
+	text-align:center;
+	margin-bottom:50px;
+	display:block;
+}
+.navbar-inverse {
+	background-color:#121111;
+	border-color:#080808;
+}
+.about-img img {
+	padding-top:30px;
+	padding-bottom:40px;
+	width:100%;
+}
+.service-wrapper {
+    margin-bottom:20px;
+}
+.about-img .social-icon a i {
+    margin-bottom:15px;
+}
+.itemHovernew {
+    padding-top:22%;
+}
+.skills .progress-title {
+	color:#d446d4;
+	font-family:Roboto,sans-serif;
+	font-size:14px;
+	letter-spacing:0;
+	margin-top:33px;
+	text-transform:uppercase;
+}
+.portfolio-heading hr {
+    padding-bottom:20px;
+}
+.contact-heading hr {
+    padding-bottom:40px;
+}
+.journal-section {
+	background:#fff none repeat scroll 0 0;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.journal-desc p {
+	color:#444;
+	font-family:Roboto,sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:28px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.filter-button-wrapper {
+    margin-bottom:30px;
+}
+.filter-button-group ul li {
+	background:none;
+	color:#062033;
+	display:inline;
+	float:left;
+	font-family:Signika,sans-serif;
+	font-size:10px;
+	font-weight:600;
+	margin-bottom:7px;
+	margin-right:7px;
+	transition:all 1s ease 0;
+	padding:10px 25px;
+}
+.filter-button-group li.active {
+	background:#d446d4;
+	color:#fff;
+	font-size:10px;
+	font-family:Signika, sans-serif;
+	font-weight:400;
+}
+.journal-desc{
+	padding-bottom:30px;
+}
+.journal-desc p {
+    padding-bottom: 0px;
+}
+.contact-input-wrap {
+    padding-right:0;
+}
+.footer-text .social-icon a {
+	background:#d446d4 none repeat scroll 0 0;
+	border:2px solid #d446d4;
+	color:#fff;
+	font-size:21px;
+	margin-left:5px;
+	margin-right:5px;
+	transition:all .5s ease-in-out 0;
+	padding:4px;
+}
+.footer-text .social-icon a:hover {
+    padding:4px;
+}
+.service-heading hr,.about-heading hr {
+    padding-bottom:30px;
+}
+.contact-wrapping,.contact-textarea-wrap {
+    padding-left:0;
+}
+}
+/* Wide Mobile Layout: */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.navbar-toggle {
+    background-color:#000;
+}
+.navbar-toggle .icon-bar {
+    background:#fff;
+}
+.navbar-brand > img {
+	margin-top:18px;
+	width:100%;
+}
+.navbar-inverse {
+	background-color:#121111;
+	border-color:#080808;
+}
+.main-section{
+	height:auto;
+	padding-bottom:60px;
+}
+.home-header {
+	height:auto;
+	padding-bottom:80px;
+}
+.header-text p span#typer {
+	font-family:Roboto, sans-serif;
+	font-size:30px!important;
+	font-weight:400;
+	color:#fff;
+	text-align:center;
+	margin-bottom:50px;
+	display:block;
+}
+.about-img img {
+	padding-top:30px;
+	padding-bottom:40px;
+	width:100%;
+}
+.portfolio-heading hr {
+    padding-bottom:20px;
+}
+.filter-button-group ul li {
+	background:rgba(0,0,0,0) none repeat scroll 0 0;
+	border:1px solid #d446d4;
+	color:#444;
+	display:inline-block;
+	font-family:Signika,sans-serif;
+	font-size:12px;
+	font-weight:400;
+	transition:all 1s ease 0;
+	padding:10px 40px;
+}
+.filter-button-group li.active {
+	background:#d446d4;
+	color:#fff;
+	font-size:12px;
+	font-family:Signika, sans-serif;
+	font-weight:400;
+}
+.contact-heading hr {
+    padding-bottom:40px;
+}
+.service-heading hr,.about-heading hr {
+    padding-bottom:30px;
+}
+}
